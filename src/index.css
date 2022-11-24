@@ -1,10 +1,61 @@
 /*Estilo CSS da página Clube Penguin */
+/*importar a fonte título do google fonts - Hachi maru */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+@font-face {
+    font-family: "Bellota";
+    src: url(/fonts/BellotaText-Regular.ttf);
+}
+@font-face {
+    font-family: "Hachi Maru";
+    src: url(/fonts/HachiMaruPop-Regular.ttf);
+}
+
 /*bora zerar a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 
+}
 
+body{
+    font-size: 100%;
+    background: #F3F5EB;
+}
 
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
+}
+.header-logo{
+    height: 72px;
+}
+.header-menu-nav{
+    display: flex;
+    gap: 35px;
+}
+.header-menu-item{
+    font-family: "Bellota", monospace;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
 
+.conteudo-principal{
+
+}
+.conteudo-principal-imagem-sobre{
+
+}
+.conteudo-principal-imagem{
+   width: 100%;
+
+}
 
 
 
