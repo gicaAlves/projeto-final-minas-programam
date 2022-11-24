@@ -142,50 +142,121 @@ h2, h3, h4{
 
 }
 .titulo-conteudos{
-    margin-top: 30px;
+    margin-top: 34px;
     text-align: center;
     font-weight: 800;
+    font-size:28px;
     
 }
 
 .conteudos-disponibilizados-livro-1{
     background-color: #AED4E5;
-    border: 0.2px solid black;
-    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    border: 0.1px solid rgb(147, 145, 145);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(147, 145, 145);
     width: 10%;
-    height: 350px;
+    height: 360px;
     padding: 30px;
 }
 .conteudos-disponibilizados-livro-2{
     background-color: #AED4E5;
-    border: 0.2px solid black;
-    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    border: 0.1px solid rgb(147, 145, 145);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(147, 145, 145);
     width: 10%;
-    height: 350px;
+    height: 360px;
     padding: 30px;
 }
 .conteudos-disponibilizados-livro-3{
     background-color: #AED4E5;
-    border: 0.2px solid black;
-    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    border: 0.1px solid rgb(147, 145, 145);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(147, 145, 145);
     width: 10%;
-    height: 350px;
+    height: 360px;
     padding: 30px;
+    
 }
 
 .titulo-livros{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 }
 .conteudos-disponibilizados-livros-descricao{
     font-family: "Bellota";
     font-weight: 200;
 
+
 }
 .botao-quero-ler{
-
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(147, 145, 145);
+    background-color: #F3F5EB;
+    font-family: "Bellota";
+    font-weight: 500;
+    font-size: 13px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.conteudo-participe-comunidades{
+    
 }
 
+.titulo-participe{
+    margin-top: 28px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.conteudo-participe-comunidades-texto{
+    font-family: "Bellota";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.conteudos-participe-comunidades-redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+.conteudos-participe-comunidades-discord{
+    background-color: #AED4E5;
+    border-style: none;
+    border-radius: 50%;
+    width: 20;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+
+   
+    
+}
+.conteudos-participe-comunidades-telegram{
+    background-color: #AED4E5;
+    border-style: none;
+    border-radius: 50%;
+    width: 10;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+.footer{
+    padding: 32px;
+}
 
 
 
