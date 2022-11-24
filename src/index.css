@@ -94,8 +94,7 @@ h2, h3, h4{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: stretch;
-   
+    align-items: stretch;   
 }
 .conteudo-pesquisa-problematica{
     max-width: 100vw;
@@ -133,17 +132,59 @@ h2, h3, h4{
 }
 
 .conteudos-disponibilizados{
+   margin-top: 20px;
+   padding: 30px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   align-content: center;
 
 }
 .titulo-conteudos{
-
+    margin-top: 30px;
+    text-align: center;
+    
 }
 
-.conteudos-disponibilizados-livros{
-
+.conteudos-disponibilizados-livro-1{
+    background-color: #AED4E5;
+    border: 0.2px solid black;
+    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    width: 10%;
+    height: 350px;
+    padding: 30px;
+}
+.conteudos-disponibilizados-livro-2{
+    background-color: #AED4E5;
+    border: 0.2px solid black;
+    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    width: 10%;
+    height: 350px;
+    padding: 30px;
+}
+.conteudos-disponibilizados-livro-3{
+    background-color: #AED4E5;
+    border: 0.2px solid black;
+    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    width: 10%;
+    height: 350px;
+    padding: 30px;
 }
 
 .titulo-livros{
+
+}
+.conteudos-disponibilizados-livros-descricao{
+    font-family: "Bellota";
+
+}
+
+
+
+
+
+.botao-quero-ler{
 
 }
 
