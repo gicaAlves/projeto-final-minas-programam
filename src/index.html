@@ -15,9 +15,9 @@
     <!--cabeçalho🤯-->
     <header class="header-menu">
         <!--navbar, navegador ⛵-->
-        <img class="logo-navbar" src="/img/penguin-livrinhobeijo.png" alt="logo pinguim com livrinho do biquinho">
+        <img class="header-logo" src="/img/penguin-livrinhobeijo.png" alt="logo pinguim com livrinho do biquinho">
         <nav>
-            <ul class="lista-menu">
+            <ul class="header-lista-menu">
                 <a href="#sobre">Sobre o projeto</a>
                 <a href="#conteúdos">Livrinhos</a>
                 <a href="#participe">Participe!</a>
@@ -26,51 +26,49 @@
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="conteudo-principal">
+        <section class="conteudo-principal-imagem-sobre">
             <img src="/img/background-completinho.png" alt="imagem de fundo do clube penguin">
-            <div>
+            <div class="conteudo-principal-sobre">
                 <p>Clube Penguin é uma comunidade de apoio e incentivo a leitura para estudantes de baixa renda. 
                     Disponibilizando alguns livros em formato .pdf com temas diversos, promovendo educação e socialização entre as pessoas.
                 </p>
-            <img src="/img/book-world.png" alt="imagem de livro com globo terrestre no fundo">
+            <img class="conteudo-principal-livrinho-mundo" src="/img/book-world.png" alt="imagem de livro com globo terrestre no fundo">
             </div>
         </section>
     </main>
 
 <br/> <br/>
 
-    <section>
-        <div>
-            <div>
-                <h2>A Problemática</h2>
-                <p>
-                    “Há uma grande diferença entre o hábito de ler e o acesso ao livro. A população de baixa renda encontra muitos empecilhos 
-                    para o consumo de textos e publicações, com bibliotecas precárias e sem que haja um estímulo à prática de leitura.” 
-                    <a href="https://gq.globo.com/Cultura/noticia/2021/04/leitor-baixa-renda-dificil-acesso-bibliotecas-livro-imposto.html" target ="_blank"><i>O leitor de baixa renda tem difícil acesso a bibliotecas - mas encontra um jeito GQ Globo</i></a> 
-                </p>
-            </div>
+    <section class="conteudo-pesquisa" >
+        <div class="conteudo-pesquisa-problematica">
+            <h2>A Problemática</h2>
+            <p class="conteudo-pesquisa-problematica-sobre">
+                “Há uma grande diferença entre o hábito de ler e o acesso ao livro. A população de baixa renda encontra muitos empecilhos 
+                para o consumo de textos e publicações, com bibliotecas precárias e sem que haja um estímulo à prática de leitura.” 
+                <a href="https://gq.globo.com/Cultura/noticia/2021/04/leitor-baixa-renda-dificil-acesso-bibliotecas-livro-imposto.html" target ="_blank"><i>O leitor de baixa renda tem difícil acesso a bibliotecas - mas encontra um jeito GQ Globo</i></a> 
+            </p>
+        </div>
 
 <br/> 
 
-            <div>
-                <h2>Solução</h2>
-                <p>
-                    Com o Clube Penguin, você pode participar da comunidade, trocar livros, documentos e artigos. 
-                    Conhecer novas pessoas e promover a leitura, incentivando o desenvolvimento técnico e pessoal ao seu redor.
-                    Venha fazer parte!
-                </p>
-            </div>
+        <div class="conteudo-pesquisa-solucao">
+            <h2>Solução</h2>
+            <p class="conteudo-pesquisa-solucao-sobre">
+                Com o Clube Penguin, você pode participar da comunidade, trocar livros, documentos e artigos. 
+                Conhecer novas pessoas e promover a leitura, incentivando o desenvolvimento técnico e pessoal ao seu redor.
+                Venha fazer parte!
+            </p>
         </div>
     </section>
 
 <br/> <br/> <br/>
 
-    <section>
+    <section class="conteudos-disponibilizados">
         <h2>Conheça alguns livros disponibilizados pela comunidade!</h2>
-        <div>
+        <div class="conteudos-disponibilizados-livros">
             <h4>Quando me descobri negra</h4>
-            <p class="descricao-livro">
+            <p class="conteudos-disponibilizados-livros-descricao">
                 Bianca Santana <br/>
                 "Tenho 30 anos, mas sou negra há dez. Antes, era morena"
             </p>
@@ -78,9 +76,9 @@
                 <button type="button" onclick="alert('Boa leitura!🚀')">Quero ler</button> 
             </a>
         </div>
-        <div>
+        <div class="conteudos-disponibilizados-livros">
             <h4>Quarto de Despejo</h4>
-            <p class="descricao-livro">
+            <p class="conteudos-disponibilizados-livros-descricao">
                 Carolina Maria de Jesus <br/>
                 “O livro de Carolina Maria de Jesus narra de modo fiel o cotidiano passado na 
                 favela.”
@@ -89,9 +87,9 @@
                 <button type="button" onclick="alert('Boa leitura!🚀')">Quero ler</button> 
             </a>
         </div>
-        <div>
+        <div class="conteudos-disponibilizados-livros">
             <h4>A Revolução dos Bichos</h4>
-            <p class="descricao-livro">
+            <p class="conteudos-disponibilizados-livros-descricao">
                 George Orwell <br/>
                 "Após anos sendo maltratados. Um grupo de animais decide tomar o controle 
                 da fazenda onde vive."
@@ -101,27 +99,28 @@
             </a>
         </div>
     </section>
-    <section class="participe-comunidades">
+    <section class="conteudo-participe-comunidades">
         <h2>Participe!</h2>
-        <p>
+        <p class="conteudo-participe-comunidades-texto">
             Venha fazer parte do nosso Clube, sua presença será muito especial!
         </p>
-        <div class="comunidades">
+        <div class="conteudos-participe-comunidades-redes">
            <a href="https://discord.com/" target="_blank"><img src="/img/logo-discord.svg" alt="logo discord"></a>
         </div>
-        <div class="comunidades">
+        <div class="conteudos-participe-comunidades-redes">
             <a href="https://telegram.org/" target="_blank"><img src="/img/logo-telegram.svg" alt="logo telegram"></a>
         </div>
     </section>
 </body>
 <footer class="footer">
-    <div>
+    <div class="div-footer">
         <img class="pingu-footer" src="/img/meu pingu.png" alt="imagem de pinguim">
-        <p>Desenvolvido com carinho por, <strong class="nome-gica">Gica</strong></p>
-        <ul>
-            <a href="https://www.linkedin.com/in/giovanna-alves-gica/" target="_blank"><img src="/img/logo-linkedin-ok.svg" alt="logo linkedin"></a>
-            <a href="https://github.com/gicaAlves" target="_blank"><img src="/img/GitHub.svg" alt="logo github"></a>
-        </ul>
+        
+        <p class="footer-frase-final">Desenvolvido com carinho por, <strong class="nome-gica">Gica</strong></p>
+
+        <a href="https://www.linkedin.com/in/giovanna-alves-gica/" target="_blank"><img class="footer-logo-linkedin" src="/img/logo-linkedin-ok.svg" alt="logo linkedin"></a>
+        <a href="https://github.com/gicaAlves" target="_blank"><img class="footer-logo-github" src="/img/GitHub.svg" alt="logo github"></a>
+    
     </div>
 </footer>
 
