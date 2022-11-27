@@ -1,5 +1,5 @@
 # projeto-final-minas-programam
-> Projeto final realizado no bootcamp do projeto Minas Programam 💚🚀
+> Projeto final realizado no Bootcamp de Introdução a Programação Front-end do Minas Programam 💚🚀
 
 # 📚Clube Penguin 🐧
 Clube Penguin, landing page criada como projeto final do Bootcamp introdutório em front-end do Minas Programam, faz parte de outro projeto chamado Penguin Papelaria, um e-comerce de uma papelaria. Criado em 2021 pela Gica no Curso Técnico em Desenvolvimento de sistemas, com HTML, PHP e Bootstrap.
@@ -12,4 +12,8 @@ No caso da problemática ao acesso e incentivo a leitura, na materia <a href= "h
 
 ### 🩹Solução
 Com o Clube Penguin, o estudante pode participar da comunidade (através do discord ou telegram), trocar livros, documentos e artigos. Conhecer novas pessoas e promover a leitura, incentivando o desenvolvimento técnico e pessoal ao seu redor de forma gratuita. 
+
+
+### 🥰Agradecimentos e Conclusão
+
 
