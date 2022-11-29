@@ -15,5 +15,6 @@ Com o Clube Penguin, o estudante pode participar da comunidade (através do disc
 
 
 ### 🥰Agradecimentos e Conclusão
-
-
+O projeto final do curso tem um objetivo principal de ser um MVP {Mínimo Produto Viável} refletindo o que aprendemos no curso, com criatividade, conhecimento e amor. 
+Agradeço a oportunidade e acolhimento do projeto Minas Programam, a coordenação e organização, professoras e monitoras, minha turma e cada conexão criada. <br/>
+Levo conhecimento, mais paixão e confiança na área e muito mais empatia.💜🌈🚀🐧
