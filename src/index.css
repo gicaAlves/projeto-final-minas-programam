@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: "Bellota";
-    src: url(/src/fonts/BellotaText-Regular.ttf);
+    src: url(/fonts/BellotaText-Regular.ttf);
 }
 @font-face {
     font-family: "Hachi Maru";
-    src: url(/src/fonts/HachiMaruPop-Regular.ttf);
+    src: url(/fonts/HachiMaruPop-Regular.ttf);
 }
 
 /*bora zerar a página */
